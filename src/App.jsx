@@ -8,6 +8,7 @@ import Gigs from "./pages/gigs/Gigs";
 import "./App.scss";
 import NotFound from "./pages/404/NotFound";
 
+
 function App() {
   const path = useLocation().pathname;
   console.log(path);
